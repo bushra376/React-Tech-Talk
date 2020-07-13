@@ -20,7 +20,7 @@ export default [
         description: "re-render functional component only if props change",
     },
     {
-        id: "4",
+        id: "5",
         name: "React useEffect",
         description: "perform side effects in functional component",
     }
