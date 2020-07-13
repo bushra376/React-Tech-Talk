@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', serif;
+}
+
+body {
+  font-size: 2rem;
+  background-color: #BFEBEA;
+}
+
+.content {
+  font-size: 2rem;
+  background-color: #BFEBEA;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  min-height:100vh;
+}
+
+.result {
+  display: flex;
+  height: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.button {
+  width: 4rem;
+  height: 4rem;
+  max-width: 4rem;
+  max-height: 4rem;
+  
+  margin: 0.5rem;
+  padding-top: 0.5rem;
+  
+  background: #F2F2F2;
+  
+  border: 1px solid #CCCCCC;
+  border-radius: 2rem;
+  outline: none;
+  
+  font-size: 2rem;
+}
+
+.button:first-child {
+  margin-left: 0;
+}
+
+.button:last-child { 
+  margin-right: 0;
+}
+
+.input {
+  width: 34rem;
+  height: 4rem;
+  
+  background: #F2F2F2;
+  
+  border: 1px solid #CCCCCC;
+  border-radius: 2rem;
+  outline: none;
+  
+  font-size: 2rem;
+  color: #737373;
+  letter-spacing: 1px;
+  text-indent: 2rem;
+}
+
+.announcement {
+  font-size: 1rem;
+  color: white
+}
+
+.credits {
+  position: fixed;
+  right: 2rem;
+  bottom: 0;
+  font-size: 1rem;
+  color: white
+}

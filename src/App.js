@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 // import Memo from './Example-2/Memo';
 // import Memo from './Example-3/Memo';
 // import Memo from './Example-4/Memo';
+// import Memo from './Example-5/Memo';
 import List from './Example-1/List';
 import Topics from './Example-1/Topics';
 import './App.css';
