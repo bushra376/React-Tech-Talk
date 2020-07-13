@@ -1,0 +1,40 @@
+.input {
+  width: 25em;
+  height: 3em;
+  font-size: 25px;
+}
+
+.CountContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Count {
+  padding: 20px 100px;
+}
+
+.button {
+  position: relative;
+  margin-top: 20px;
+  display: inline-block;
+  padding: 5px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: grey;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #D3D3D3;
+}
+
+.button:hover {background-color: tan}
+
+.button:active {
+  background-color: tan;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
