@@ -18,5 +18,10 @@ export default [
         id: "4",
         name: "React Memo",
         description: "re-render functional component only if props change",
+    },
+    {
+        id: "4",
+        name: "React useEffect",
+        description: "perform side effects in functional component",
     }
 ];
